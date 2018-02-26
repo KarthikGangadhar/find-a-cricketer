@@ -1,5 +1,5 @@
 {
-  "name": "judo-heroes-2",
+  "name": "find-a-cricketer",
   "version": "1.0.0",
   "description": "A React application to showcase rendering with Universal JavaScript",
   "main": "server.js",
@@ -16,8 +16,8 @@
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
   },
-  "author": "Luciano Mammino",
-  "license": "MIT",
+  "author": "kgangadhar",
+  "license": "GNU",
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
