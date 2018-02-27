@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.2
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:ms:20170412':
+    - express > debug > ms:
+        reason: simply
+        expires: '2018-03-29T06:53:53.135Z'
+    - express > send > ms:
+        reason: simply
+        expires: '2018-03-29T06:53:53.135Z'
+    - express > send > debug > ms:
+        reason: simply
+        expires: '2018-03-29T06:53:53.136Z'
+    - express > serve-static > send > ms:
+        reason: simply
+        expires: '2018-03-29T06:53:53.136Z'
+    - express > serve-static > send > debug > ms:
+        reason: simply
+        expires: '2018-03-29T06:53:53.136Z'
+  'npm:fresh:20170908':
+    - express > send > fresh:
+        reason: simply
+        expires: '2018-03-29T06:53:53.136Z'
+    - express > serve-static > send > fresh:
+        reason: None given
+        expires: '2018-03-29T06:53:53.136Z'
+  'npm:hoek:20180212':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        reason: None given
+        expires: '2018-03-29T06:53:53.136Z'
+patch: {}
